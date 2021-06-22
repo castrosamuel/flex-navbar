@@ -1,0 +1,40 @@
+/* use display: flex; align-items:center; justify-content:space-evenly; */
+
+.nav {
+    background-color: rgb(44, 44, 44);
+    width:80%;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    padding:0 10px;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin:0 auto
+}
+
+.nav-title {
+    
+}
+
+.nav-links {
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.btn {
+    background-color: rgb(50, 135, 161);
+    color:white;
+    box-shadow: 3px 3px black;
+    border-color:black;
+    height:25px;
+    font-family: 'Roboto', sans-serif;
+}
